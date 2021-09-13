@@ -1,6 +1,14 @@
 # 埋点数据生成脚本
 部分数据参考尚硅谷，完善了部分错误
 
+## how to run
+
+在当前目录执行 `python main.py` 即可
+
+```bash
+python main.py
+```
+
 ## 更新日志
 
 | 日期                | 内容                            | 版本  |
@@ -13,28 +21,54 @@
 ## 结构说明
 
 ├── README.md
+
 ├── applications
+
 │   ├── Ad.py
+
 │   ├── Display.py
+
 │   ├── Loading.py
+
 │   ├── Notification.py
+
 │   ├── ProductDetails.py
+
 │   ├── Public.py
+
 │   ├── ShoppingCart.py
+
 │   ├── Start.py
+
 │   ├── __init__.py
+
 │   └── case
+
 │       ├── AppAd.py
+
 │       ├── AppComment.py
+
 │       ├── AppDisplay.py
+
 │       ├── AppError.py
+
 │       ├── AppFavorites.py
+
 │       ├── AppLoading.py
+
 │       ├── AppNotification.py
+
 │       ├── AppPraise.py
+
 │       ├── AppProductDetails.py
+
 │       ├── AppPublic.py
+
 │       ├── AppShoppingCart.py
+
 │       ├── AppStart.py
+
 │       └── __init__.py
+
 └── main.py
+
